@@ -13,11 +13,13 @@ ${URL}          https://letskodeit.teachable.com/
 
 *** Test Cases ***
 User Should Be Able To Sign Up With Valid Information
+    [Tags]  AccountCreation
     LetsKodeItSignUp.Open Landing Page
     LetsKodeItSignUp.Complete SignUp Information  Name  email1@email.com  passmeplease
     LetsKodeItSignUp.Verify SignUp Successfull
 
 User Should Not Be Able To Sign Up With Invalid Information
+    [Tags]  AccountCreation
     LetsKodeItSignUp.Open Landing Page
     LetsKodeItSignUp.Complete SignUp Information  Name  email1@e.com  ''
     LetsKodeItSignUp.Verify SignUp Is Not Successfull
