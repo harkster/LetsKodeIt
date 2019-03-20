@@ -36,4 +36,5 @@ User Not Should Be Able To Login With Valid Creds
     LetsKodeItLogin.Enter Login Creds  test@ee.com  passthis
     LetsKodeItLogin.Verify Login Is Not Successfull
 Dev Test
+    [Tags]  jenkins
     log  This is Dev Env
