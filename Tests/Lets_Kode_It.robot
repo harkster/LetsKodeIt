@@ -35,3 +35,6 @@ User Not Should Be Able To Login With Valid Creds
     LetsKodeItLogin.Open Landing Page
     LetsKodeItLogin.Enter Login Creds  test@ee.com  passthis
     LetsKodeItLogin.Verify Login Is Not Successfull
+
+QA Test
+    log  This is QA Env
