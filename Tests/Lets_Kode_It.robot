@@ -35,3 +35,5 @@ User Not Should Be Able To Login With Valid Creds
     LetsKodeItLogin.Open Landing Page
     LetsKodeItLogin.Enter Login Creds  test@ee.com  passthis
     LetsKodeItLogin.Verify Login Is Not Successfull
+Dev Test
+    log  This is Dev Env
